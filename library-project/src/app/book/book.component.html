@@ -1,0 +1,20 @@
+<p>book works!</p>
+<b>List of books</b>
+<table border="1">
+    <thead>
+        <tr>
+            <td>bookName</td>
+            <td>authorname</td>
+            <td>bookprice</td>
+            <td>published date</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let book of bookList">
+            <td>{{book.bookname}}</td>
+            <td>{{book.authorname}}</td>
+            <td>{{book.price}}</td>
+            <td>{{book.publishedDate}}</td>
+        </tr>
+    </tbody>
+</table>

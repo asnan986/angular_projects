@@ -1,0 +1,18 @@
+<b>List of Library Books</b>
+<table border="1">
+
+    <thead>
+        <tr>
+            <td>bookName</td>
+            <td>authorname</td>
+            <td>bookprice</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let book of springbooks">
+            <td>{{ book.bookName}}</td>
+            <td>{{ book.authorName}}</td>
+            <td>{{ book.price}}</td>
+        </tr>
+    </tbody>
+</table>

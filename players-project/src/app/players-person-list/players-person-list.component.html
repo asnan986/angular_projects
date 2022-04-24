@@ -1,0 +1,18 @@
+<b>List of players</b>
+<table border="1">
+
+    <thead>
+        <tr>
+            <td>Name</td>
+            <td>Franchise</td>
+            <td>Player Role</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let players of playersList">
+            <td>{{players.playerName}}</td>
+            <td>{{players.franchise}}</td>
+            <td>{{players.playerRole}}</td>
+        </tr>
+    </tbody>
+</table>
